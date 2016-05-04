@@ -55,7 +55,7 @@ updated()
 Called when the preferences of an installed app are updated. Typically unsubscribes and re-subscribes to events from the configured devices and unschedules/reschedules jobs.
 
 **Signature:**
-    ``void uninstalled()``
+    ``void updated()``
 
 **Returns:**
     void
